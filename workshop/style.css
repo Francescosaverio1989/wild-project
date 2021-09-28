@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: salmon;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.hero{
+background-image: url("image.jpex");
+background-repeat: no-repeat;
+background-size: cover;
+}
